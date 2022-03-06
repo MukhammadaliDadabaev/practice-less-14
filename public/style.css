@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 500px;
+    padding: 1.7rem;
+    font-family: sans-serif;
+    background-color: black;
+}
+.head {
+    margin: 2.5rem 0 3rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+.card {
+    width: 115%;
+    margin: 1.7rem 0;
+    padding: 1.7rem 1rem;
+    border-radius: 1rem;
+    background-color: aliceblue;
+}
+.card img {
+    width: 230px;
+    margin-left: 7rem;
+    clip-path: polygon(0 0, 100% 28%, 100% 100%, 0 100%);
+}
+h2 {
+    text-align: center;
+    padding: 1rem;
+}
+p {
+    padding: 1rem;
+    font-style: italic;
+    line-height: 22px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #000;
+}
+
+
